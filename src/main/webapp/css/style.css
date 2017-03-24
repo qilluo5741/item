@@ -1,0 +1,52 @@
+table {border-collapse: collapse;}
+table td{border:1px solid #E0E0E0; color:#5F9EA0;text-align:center;width:8%;}/*全体页面字体颜色*/
+table tr{height:35px;}
+table tr th{border: 1px solid #E0E0E0; color:#5F9EA0;text-align: center}/*全体页面字体颜色*/
+table a{color:#5F9EA0;text-decoration: none}
+body{color:#5F9EA0;}/*全体页面上半字体颜色*/
+table tr:HOVER{background-color: #d0d0d0;}
+iframe{
+	width:100%;
+	height:100%;
+	min-height:600px;
+	border:none;
+}
+.opration a{
+		display:inline-block;
+		margin:0 5px;
+	}
+.adjust-main label{
+	height:40px;
+	line-height:40px;
+	padding:0 30px;
+	text-align:left;
+}
+.adjust-main label span{
+	display:inline-block;
+	width:90px;height:30px;
+	line-height:30px;
+}
+@media(max-width:668px){
+	.group-form{
+		padding-top:20px;
+	}
+	.search-form{
+		clear:both !important;
+	}
+	.opration a{
+		display:block;
+		text-align:center;
+	}
+	.adjust-main label{
+		padding:0;
+	}
+	.adjust-main label input{
+		width:200px;
+	}
+	.adjust-main label input[type="button"]{
+		width:100px !important;
+	}
+	.adjust-main label select{
+		width:195px !important;
+	}
+}
